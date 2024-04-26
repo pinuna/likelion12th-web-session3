@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import TopWrapper from './TopWrapper'; 
 
 function App() {
   return (
@@ -66,7 +67,10 @@ function App() {
                 <img src="https://cdn.icon-icons.com/icons2/2182/PNG/512/mail_message_email_letter_icon_133481.png" alt="문자"/>
             </a>
         </div>
-        </div>
+        
+        <TopWrapper />
+
+    </div>
   );
 }
 
