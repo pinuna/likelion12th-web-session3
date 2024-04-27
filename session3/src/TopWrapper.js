@@ -15,7 +15,7 @@ const TopWrapper = () => {
             <span>김서현</span>
         </p>
         <p id="ProfilePicture">
-        <img src="https://img.freepik.com/free-photo/asian-woman-relaxing-at-home_23-2148976932.jpg?w=1060&t=st=1709744711~exp=1709745311~hmac=365ad846746320f5a897d0d24b6ac9115857071126fc436ad4d35baef81724ab" alt="Profile Picture"/>
+        <image src="https://img.freepik.com/free-photo/asian-woman-relaxing-at-home_23-2148976932.jpg?w=1060&t=st=1709744711~exp=1709745311~hmac=365ad846746320f5a897d0d24b6ac9115857071126fc436ad4d35baef81724ab" alt="Profile Picture"/>
         </p>
         <p id="keyword">
         <h3>나를 표현하는 4가지 키워드</h3>

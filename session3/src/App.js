@@ -1,18 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import TopWrapper from './TopWrapper'; 
 
 function App() {
   return (
-    <>
     <div id="Wrapper">
         <h2 id="title">김서현의 자기소개</h2>
         <div id="ProfilePicture">
-            <Like />
             <h3>프로필 사진</h3>
             <h6>(임의의 사진으로 대체)</h6>
         </div>
-        </>
         <div id="keyword">
         </div>
         <div id="value">
