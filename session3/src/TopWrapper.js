@@ -6,8 +6,13 @@ const TopWrapper = () => {
     <div id="top-wrap">
       <Profile />
       <div id="textBox" className="contentWrap">
-        <p id="text">
-          안녕하세요 좋은 하루 되세요 행복하시구요
+        <p id="MyInfo">
+            <h3>내 정보</h3>
+            <span>명지대학교</span>
+            <span>정보통신공학과</span>
+            <span>3학년</span>
+            <span>60211900</span>
+            <span>김서현</span>
         </p>
       </div>
     </div>
