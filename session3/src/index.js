@@ -13,7 +13,7 @@ import Intro from './Intro';
 import Counter from './Counter';
 
 const router = createBrowserRouter([
-  {
+ {
     path: "/",
     element: <Main />,
   },
@@ -21,6 +21,7 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
+
   {
     path: "/intro",
     element: <Intro />,

@@ -1,15 +1,16 @@
+/*
 import React from 'react';
+import './TopWrapper.css';
 // import Profile from './Profile';
 
 const TopWrapper = () => {
   return (
     <div id="top-wrap">
-      {/* <Profile /> */}
       <div id="textBox" className="contentWrap">
         <p id="MyInfo">
             <h3>내 정보</h3>
-            <span>명지대학교!</span>
-            <span>정보통신공학과!!!!</span>
+            <span>명지대학교</span>
+            <span>정보통신공학과</span>
             <span>3학년</span>
             <span>60211900</span>
             <span>김서현</span>
@@ -67,3 +68,68 @@ const TopWrapper = () => {
 }
 
 export default TopWrapper;
+*/
+
+import React from 'react';
+import './intro.css'; // Intro 컴포넌트에 관련된 CSS 파일 import
+
+const Intro = () => {
+  return (
+    <div className="wrapper_box">
+      <h2 id="title">김서현의 자기소개</h2>
+
+      <div id="ProfilePicture">
+        <h3>프로필 사진</h3>
+        <h6>(임의의 사진으로 대체)</h6>
+      </div>
+
+      <div id="MyInfo">
+        <h3>내 정보</h3>
+        <p>명지대학교 정보통신공학과 3학년 60211900 김서현</p>
+      </div>
+
+      <div id="keyword">
+        <h3>나를 표현하는 4가지 키워드</h3>
+        <ul>
+          <li>성실함</li>
+          <li>진솔함</li>
+          <li>생각</li>
+          <li>창의력</li>
+        </ul>
+      </div>
+
+      <div id="value">
+        <h3>가족 구성원</h3>
+        <ul>
+          <li>어머니</li>
+          <li>아버지</li>
+          <li>파이(강아지)</li>
+        </ul>
+      </div>
+
+      <div id="favorite">
+        <h3>내가 좋아하는 것</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>음악</th>
+              <th>과일</th>
+              <th>취미</th>
+              <th>동물</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>밴드 음악</td>
+              <td>딸기</td>
+              <td>베이스 연주</td>
+              <td>강아지</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+export default Intro;
