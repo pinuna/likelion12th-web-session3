@@ -1,0 +1,78 @@
+## CRA 만들어서
+
+## github 레포지토리에 연결해주세요
+
+**레포 이름**
+
+likelion12th-web-sessioin3
+
+1. 로컬에서 CRA 생성
+2. github에 push하기
+
+
+yarn CRA 명령어
+$ yarn create react-app session3
+
+branch 이름 master → main으로 바꾸는 명령어
+$ git branch -m master main
+
+깃허브 main 브랜치에 push 하는 명령어
+
+
+$ git remote add session3 https://github.com/pinuna/likelion12th-web-session3.git
+$ rm -rf ./.git
+$ git init
+$ git add .
+$ git commit -m 'commit message'
+$ git remote add origin https://github.com/pinuna/likelion12th-web-session3.git
+$ git push origin master
+$ git push origin main
+$ git branch -m master main
+$ git push origin main
+$ git remote -v
+$ git log (깃 만든 기록)
+$ git status(깃 상태)
+$ git branch (지금 깃 있는거)
+$ git branch develop (develop 브랜치 만들기)
+$ git branch(깃 브랜치 확인)
+$ git checkout develop
+$ git status
+$ git add .
+$ git status
+$ git commit -m "develop 브랜치 생성"
+$ git log
+$ git push origin develop 
+$ git log
+
+
+깃 가서
+pull requests
+develop 브랜치 생성#1
+merge pull request 다른사람이 눌러서 확인(내가 누르지 말것)
+
+만든 session3 파일 그대로 visual studio에 끌어넣기
+거기서 src에서 app.js 들어가서 아래처럼 만들기
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+
+  );
+}
+
+export default App;
+
+깃허브로 돌아가기
+code가서 main 브랜치 가서 session3 누르기
+src 가서 app.js 가면 원래 내용이 있음
+
+develope 브랜치 누르면
+바뀐 src의 app.js가 있음
+
+git checkout develop
+
+git add .  # 변경된 모든 파일을 스테이징 영역에 추가합니다.
+git commit -m "작업 내용을 간단히 기록하세요"  # 커밋을 생성합니다.
+
+git push origin develop

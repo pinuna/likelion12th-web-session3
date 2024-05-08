@@ -1,0 +1,24 @@
+[33mcommit 73ac2fa506edfb783ee58ab4269bb3d176aa20c2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mweek4[m[33m)[m
+Author: kimseohyun <lsabella0104@naver.com>
+Date:   Wed May 8 19:56:52 2024 +0900
+
+    feat)state기능추가
+
+[33mcommit 572f51ae1eeeedbc62c2a5d8956f06d047d98906[m
+Author: kimseohyun <lsabella0104@naver.com>
+Date:   Wed May 8 19:50:54 2024 +0900
+
+    feat)로그인기능구현
+
+[33mcommit d3f2304e81a5b1d9f1fef69578617c0562560b39[m
+Author: kimseohyun <lsabella0104@naver.com>
+Date:   Wed May 8 19:34:33 2024 +0900
+
+    feat: Intro 소개 페이지
+    추가
+
+[33mcommit 0ea240925b85cf37c0d496d6e250165d34f1b43b[m
+Author: kimseohyun <lsabella0104@naver.com>
+Date:   Wed May 8 19:31:17 2024 +0900
+
+    feat: 초기 기능 구현
