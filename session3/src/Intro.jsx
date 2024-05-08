@@ -1,7 +1,7 @@
-import './App.css';
+import './intro.css';
 import TopWrapper from './TopWrapper'; 
 
-function App() {
+function Intro() {
   return (
     <div id="Wrapper">
         <h2 id="title">김서현의 자기소개</h2>
@@ -27,4 +27,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Intro;
